@@ -11,7 +11,11 @@ const SignUpButton = ({ token, setToken })  => {
     };
     return (
         <Link to="/Home" onClick={onClick}>
-            <button className="signUpButton">Sign in avec Facebook</button>
+            <button className="signUpButton">
+            <div className="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+            </button>
+            
+
         </Link>
     );
 };

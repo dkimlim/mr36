@@ -1,4 +1,14 @@
-.App {
+.signUpButton{
+  font-size:30px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  border:none;
+  background: transparent;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +45,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
