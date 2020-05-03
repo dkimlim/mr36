@@ -8,6 +8,29 @@
   background: transparent;
 }
 
+
+.modal {
+  position: fixed;
+  top: 64px;
+  padding: 24px;
+  left: 64px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.Link1 {
+  position:absolute;
+  left:5%;
+  top: 70%;
+}
+
+.Link2 {
+  position:absolute;
+  left:50%;
+  top: 22%;
+}
+
 /* .App {
   text-align: center;
 }

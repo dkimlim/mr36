@@ -4,9 +4,7 @@ import { Redirect } from 'react-router-dom';
 function Home({ token, setToken }) {
     return (
         <div className="Home">
-            <h1 className="Home-h1">Container Monde 3D</h1>
-            <img src ="https://50e07b5ad0ad68162e1f-8b493d3b3ef98c1e2bde337d12990223.ssl.cf1.rackcdn.com/2105-Panorama-Panorama.jpg" />
-            {/* {token ? <Redirect to="/Home" /> : null} */}
+        <iframe width="100%" height="640"  frameborder="0" allowfullscreen="true" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" src="https://kuula.co/share/7JKxD?fs=1&vr=0&sd=1&thumbs=1&chromeless=0&logo=0&logosize=80"></iframe>
         </div>
     );
 }
